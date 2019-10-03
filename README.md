@@ -1,26 +1,26 @@
-# Setup MYSQL database
+### Setup MYSQL database
 brew install mysql
 
-# Start the database
+### Start the database
 /usr/local/bin/mysql.server start
 
-# Stop the db
+### Stop the db
 /usr/local/bin/mysql.server stop
 
-# Login 
+### Login 
 mysql -u root -p
 (No password)
 
-# Database use
+### Database use
 use mysql
 
-# Login with database used as mysql in a single line
+### Login with database used as mysql in a single line
 mysql -u root -p  mysql;
 
-# Load Mysql Create table
+### Load Mysql Create table
 source DDL.sql
 
-# Insert data
+### Insert data
 source DML.sql
 
 
